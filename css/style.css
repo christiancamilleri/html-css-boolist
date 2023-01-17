@@ -1,11 +1,157 @@
-nav #title {
-    display: inline-block;
-    font-size: 55px;
+*{
     margin: 0;
-    padding: 10 10 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* header */
+
+header #title {
+    display: inline-block;
+    font-size: 45px;
+    margin: 0;
     vertical-align: 15px;
 }
 
-nav #logo img{
-    height: 70px;
+header{
+    background-color: white;
 }
+
+img{
+    height: 60px;
+    padding-left: 10px;
+    padding: 5px;
+}
+
+/* /header */
+
+/* nav */
+
+nav #bluebutton{
+    background-color: #47adf1;
+    border-color: #47adf1;
+    border-radius: 10%;
+    padding:6px;
+    color: white;
+}
+
+nav #lightbutton{
+    color: #c8ced2;
+    border-color: #c8ced2;
+    border-radius: 10%;
+    padding: 6px;
+}
+
+#sezionenav{
+    padding: 50px 0 2px 0;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button{
+    background-color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 50px;
+}
+/* /nav */
+
+/* main */
+main{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px;
+}
+
+
+
+#sezionecentrale{
+    background-color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+/* liste */
+ul{
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+span{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+li{
+    padding: 10px;
+    padding-left: 0;
+}
+
+.check{
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.uncheck{
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.bluetext{
+    background-color: #45ABEA;
+    color: white;
+    border-radius: 150px;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.purpletext{
+    background-color: #9C72E4;
+    color: white;
+    border-radius: 150px;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.greentext{
+    background-color: #64c0a9;
+    color: white;
+    border-radius: 150px;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.redtext{
+    background-color: red;
+    color: white;
+    border-radius: 150px;
+    font-size: 0.8em;
+    padding: 5px;
+}
+/* /liste */
+/* /main */
