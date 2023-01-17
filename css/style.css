@@ -1,0 +1,11 @@
+nav #title {
+    display: inline-block;
+    font-size: 55px;
+    margin: 0;
+    padding: 10 10 10;
+    vertical-align: 15px;
+}
+
+nav #logo img{
+    height: 70px;
+}
